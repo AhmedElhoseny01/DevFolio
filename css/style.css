@@ -8,13 +8,11 @@
 #Home {
     height: 100vh;
     background-image: url('../imgs/intro-bg.jpg');
-
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-
 /* End header */
-
-
 
 /* Start About */
 #About h2 {
@@ -133,4 +131,5 @@
 
 .contact-right ul:nth-child(4) a:hover i {
     color: white;
+
 }
